@@ -27,12 +27,11 @@ def Clear():
    Department.delete(0,END)
 
 # 3 labels, 4 buttons,3 entry fields
-label1=Label(window,text="Name: ",padx=20,pady=10)
-label2=Label(window,text="Age: ",padx=20,pady=10)
-label3=Label(window,text="Contact: ",padx=20,pady=10)
-
-label4=Label(window,text="aDDRESS: ",padx=20,pady=10)
-label5=Label(window,text="DEPARTMENT: ",padx=20,pady=10)
+label1=Label(window,text="Name: ",padx=39,pady=10,background="Grey",foreground="black")
+label2=Label(window,text="Age: ",padx=43.9,pady=10,background="Grey",foreground="black")
+label3=Label(window,text="Contact: ",padx=34,pady=10,background="Grey",foreground="black")
+label4=Label(window,text="Address: ",padx=34,pady=10,background="Grey",foreground="black")
+label5=Label(window,text="Department: ",padx=23.4,pady=10,background="Grey",foreground="black")
 
 name=Entry(window,width=30,borderwidth=3)
 age=Entry(window,width=30,borderwidth=3)
@@ -40,10 +39,10 @@ contact=Entry(window,width=30,borderwidth=3)
 address = Entry(window,width = 30 , borderwidth = 4)
 Department = Entry(window,width = 30,borderwidth = 3)
 
-save=Button(window,text="Save",padx=20,pady=10,command=Save)
-add=Button(window,text="Add",padx=20,pady=10,command=Add)
-clear=Button(window,text="Clear",padx=18,pady=10,command=Clear)
-Exit=Button(window,text="Exit",padx=20,pady=10,command=window.quit)
+save=Button(window,text="Save",padx=20,pady=10,background="Black",foreground="White",command=Save)
+add=Button(window,text="Add",padx=20,pady=10,background="Black",foreground="White",command=Add)
+clear=Button(window,text="Clear",padx=18,pady=10,background="Black",foreground="White",command=Clear)
+Exit=Button(window,text="Exit",padx=20,pady=10,background="Black",foreground="White",command=window.quit)
 
 label1.grid(row=0,column=0)
 label2.grid(row=1,column=0)
