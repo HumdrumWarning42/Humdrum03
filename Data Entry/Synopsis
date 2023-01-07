@@ -1,6 +1,5 @@
-The given code is a GUI application written in Python that allows the user to enter and store
-data in a CSV file. The data includes a person&#39;s name, date of birth, gender, semester, contact
-information, address, college name, department, and a unique token number. The user can
-enter the data using entry fields and drop-down menus, and then click the &quot;Save&quot; button to
-write the data to the CSV file. The user can also click the &quot;Clear&quot; button to clear the data in the
-entry fields. The application also has a heading label and is designed to run in a Tkinter window.
+The title of the project is Data Entry Form with Unique Token Generator.  The aim of the project is to build a data entry form which will generate a unique token number for every data that is entered. The above form is created to save the data of the students of a particular institution. Given below is a gist of the code that is written.
+
+The given code is a GUI application written in Python which allows the user to enter and store data in a CSV file. The data includes a person's name, date of birth, gender, semester, contact information, address, college name, department, and a unique token number. The user can enter the data using entry fields and drop-down menus, and then click the "Save" button to write the data to the CSV file. The user can also click the "Clear" button to clear the data in the entry fields. The application has a heading label and is designed to run in a Tkinter window.
+
+The above code belongs to the members of Group 6 and it should not be copied or duplicated in whole or part by any means without the permission of the group members.
