@@ -3,9 +3,6 @@ The aim of the project is to build a data entry form which will generate a uniqu
 The above form is created to save the data of the students of a particular institution. 
 Given below is a gist of the code that is written.
 
-The given code is a GUI application written in Python which allows the user to enter and store data in a CSV file. 
-The data includes a person's name, date of birth, gender, semester, contact information, address, college name, department, and a unique token number. 
-The user can enter the data using entry fields and drop-down menus, and then click the "Save" button to write the data to the CSV file. 
-The user can also click the "Clear" button to clear the data in the entry fields. The application has a heading label and is designed to run in a Tkinter window.
+The above code is a Python script that creates a GUI application using the tkinter library. The purpose of the application is to allow the user to enter various pieces of personal information, such as their name, date of birth, gender, and so on, and then save this information to a CSV file called data_entry.csv. The application has a number of form fields for the user to fill out, as well as a Save button and a Clear button. When the user clicks the Save button, the current values of the form fields are checked and then written to the CSV file. If the user clicks the Clear button, all of the form fields are cleared. The script also includes some additional functionality, such as the ability to select a date from a calendar widget and the use of drop-down menus to select certain options.
 
-The above code belongs to the members of Group 6 and it should not be copied or duplicated in whole or part by any means without the permission of the group members.
+
